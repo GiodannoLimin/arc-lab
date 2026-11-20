@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "gravity": 9.81,
+  "options": {
+    "step": 0.004166666666666667,
+    "maxTime": 40,
+    "mass": 0.624,
+    "inertiaFactor": 0.6666666666666666,
+    "backspin": 0,
+    "rollingDrag": 0.7,
+    "spinDrag": 0.7,
+    "bounceThreshold": 0.15,
+    "materials": {
+      "rim": {
+        "restitution": 0.65,
+        "friction": 0.35
+      },
+      "backboard": {
+        "restitution": 0.75,
+        "friction": 0.3
+      },
+      "floor": {
+        "restitution": 0.82,
+        "friction": 0.6
+      }
+    }
+  },
+  "elasticEnergyError": 0,
+  "stepRefinement": {
+    "coarse": 0.008333333333333333,
+    "fine": 0.0020833333333333333,
+    "contactTimeAbsoluteError": 7.723649386726095e-9,
+    "positionAbsoluteError": 6.072732980573764e-8
+  },
+  "rows": [
+    {
+      "shot": {
+        "angle": 52,
+        "speed": 8.808751052103469,
+        "height": 2,
+        "distance": 6.75,
+        "bearing": 0,
+        "aim": 0
+      },
+      "outcome": "Clean swish",
+      "scoreTime": 1.2686011127571128,
+      "contacts": 22,
+      "floorBounces": 22,
+      "settled": true,
+      "settledTime": 17.0375,
+      "finalKineticEnergy": 0,
+      "minimumSampledClearance": -1.1102230246251565e-15
+    },
+    {
+      "shot": {
+        "angle": 35,
+        "speed": 9.5,
+        "height": 2,
+        "distance": 6.75,
+        "bearing": 0,
+        "aim": 0
+      },
+      "outcome": "Rim-assisted",
+      "scoreTime": 2.0236057190465235,
+      "contacts": 24,
+      "floorBounces": 21,
+      "settled": true,
+      "settledTime": 14.858333333333333,
+      "finalKineticEnergy": 0,
+      "minimumSampledClearance": -1.609823385706477e-15
+    },
+    {
+      "shot": {
+        "angle": 35,
+        "speed": 9.6,
+        "height": 2,
+        "distance": 6.75,
+        "bearing": 0,
+        "aim": 0
+      },
+      "outcome": "Backboard-assisted",
+      "scoreTime": 1.9396356890276756,
+      "contacts": 26,
+      "floorBounces": 21,
+      "settled": true,
+      "settledTime": 13.608333333333333,
+      "finalKineticEnergy": 0,
+      "minimumSampledClearance": -1.4155343563970746e-15
+    },
+    {
+      "shot": {
+        "angle": 30,
+        "speed": 12,
+        "height": 2,
+        "distance": 6.75,
+        "bearing": 0,
+        "aim": 0
+      },
+      "outcome": "Miss",
+      "scoreTime": null,
+      "contacts": 23,
+      "floorBounces": 22,
+      "settled": true,
+      "settledTime": 16.816666666666666,
+      "finalKineticEnergy": 0,
+      "minimumSampledClearance": -1.9567680809018384e-15
+    }
+  ],
+  "statistics": {
+    "definition": "Unchanged swish-only baseline; no rebound-inclusive optimization performed",
+    "baseline": {
+      "hits": 817,
+      "n": 10000,
+      "p": 0.0817,
+      "lo": 0.07649077355228603,
+      "hi": 0.08723047948462198,
+      "angle": 49.383605001607116,
+      "speed": 8.787067617104313,
+      "aim": 0
+    },
+    "best": {
+      "hits": 1615,
+      "n": 10000,
+      "p": 0.1615,
+      "lo": 0.1544176959432807,
+      "hi": 0.16884227095366733,
+      "angle": 59,
+      "speed": 9.091495924275087,
+      "aim": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "src/science/physics.ts": {
+    "before": "05781b1a2d7d2f112d690c42cbc820f46f15584ee29c78e5adc5e965b7f838bc",
+    "after": "05781b1a2d7d2f112d690c42cbc820f46f15584ee29c78e5adc5e965b7f838bc",
+    "unchanged": true
+  },
+  "src/science/statistics.ts": {
+    "before": "49b8f711542041c8125ab64323c9a12b189bb6ccce96488ee0b975ffe8b6ed88",
+    "after": "49b8f711542041c8125ab64323c9a12b189bb6ccce96488ee0b975ffe8b6ed88",
+    "unchanged": true
+  },
+  "src/science/rebounds.ts": {
+    "before": "20e10e3f29c6e49b9de6a82cfd0d8583e36d90970b72f98a4d99f33f45f2cc81",
+    "after": "20e10e3f29c6e49b9de6a82cfd0d8583e36d90970b72f98a4d99f33f45f2cc81",
+    "unchanged": true
+  },
+  "src/science/numerics.ts": {
+    "before": "4bf4cd58c1e7382aa97c661328f801d15a392cdc8ba112375cf9b92e2ecfd094",
+    "after": "4bf4cd58c1e7382aa97c661328f801d15a392cdc8ba112375cf9b92e2ecfd094",
+    "unchanged": true
+  }
+}

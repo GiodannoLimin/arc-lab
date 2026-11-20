@@ -1,0 +1,38 @@
+{
+  "name": "arc-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "node --import tsx --test src/science/*.test.ts src/visualization/*.test.ts",
+    "format": "prettier --write src vite.config.ts",
+    "validate": "node --import tsx --test src/science/physics.test.ts src/science/validation.test.ts && node --import tsx scripts/validate.ts",
+    "validate:rebounds": "node --import tsx --test src/science/rebounds.test.ts && node --import tsx scripts/validate-rebounds.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.4.0",
+    "katex": "0.19.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.6.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
